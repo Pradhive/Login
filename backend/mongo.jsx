@@ -1,0 +1,1 @@
+"mongodb+srv://pradhive:<password>@cluster0.msyr2a5.mongodb.net/"
