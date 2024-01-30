@@ -85,7 +85,7 @@ function Login() {
       const id = toast.loading("Registering...", { closeButton: true });
       setTimeout(() => {
         axios
-          .post("http://localhost:5000/register", formData)
+          .post("https://login-be.vercel.app/register", formData)
           .then((res) => {
             console.log(res);
             if (res.data.message === "Successfully Registered") {

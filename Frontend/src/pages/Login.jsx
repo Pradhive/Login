@@ -30,7 +30,7 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/login", formData)
+      .post("https://login-be.vercel.app/login", formData)
       .then((res) => {
         if (res.data.message === "Successfully Logged in") {
           toast.success(res.data.message);
