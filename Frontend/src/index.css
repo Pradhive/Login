@@ -19,3 +19,27 @@ code {
     33.533px -33.533px 33.533px 0px rgba(35, 50, 59, 0.1) inset;
   backdrop-filter: blur(47.28200149536133px);
 }
+
+.Toastify__close-button {
+  align-self: center !important;
+}
+
+.search-bar{
+  background-color: #000000;
+}
+
+.Toastify__close-button>svg {
+  height: 18px !important;
+  width: 18px !important;
+}
+.search-bar{
+  background-color: #000000;
+}
+
+.Toastify__slide-enter {
+  transition-duration: 0.1s !important;
+}
+
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background: #43a047 !important;
+}
